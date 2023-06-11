@@ -70,6 +70,7 @@ body {
 
 .kuvar .wrapper {
     display: flex;
+    justify-content: space-between;
     height: 350px;
 }
 .kuvar img {
