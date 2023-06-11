@@ -67,16 +67,18 @@ body {
     color: #FFF;
     text-transform: uppercase;
 }
+.kuvar {
+
+}
 .kuvar .wrapper {
     display: flex;
-    justify-content: space-between;
     height: 350px;
 }
 .kuvar img {
-    display: none;
     width: 100%;
 }
 .kuvar-text {
+    height: 350px;
     font-size: 12px;
     padding: 0 10px;
     overflow: scroll;
