@@ -239,9 +239,6 @@ input[type="submit"] {
     .mobile-menu {
         display: none;
     }
-    .kuvar img {
-        display: block;
-    }
     .kuvar-text {
         overflow: hidden;
     }
