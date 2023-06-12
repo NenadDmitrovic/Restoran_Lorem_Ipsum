@@ -76,6 +76,7 @@ body {
 }
 
 .kuvar .wrapper {
+    width: 60%;
     display: flex;
     justify-content: space-between;
     height: 350px;
