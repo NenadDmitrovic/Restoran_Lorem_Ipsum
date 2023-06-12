@@ -156,6 +156,10 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.footer-top .wrapper a i {
+    font-size: 20px;
+}
 .footer-top img {
     width: 30%;
 }
