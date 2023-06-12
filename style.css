@@ -224,16 +224,12 @@ input[type="submit"] {
     font-size: 12px;
     margin-bottom: 15px;
 }
-.google-map {
-    padding: 80px;
-    position: relative;
-}
+
 .google-map iframe {
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
-    position: absolute;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .wrapper {
@@ -289,6 +285,10 @@ input[type="submit"] {
         align-self: center;
     }
 
+    .google-map {
+        width: 80%;
+        margin: 0 auto;
+    }
     /********** JELOVNIK ****************/
 
     .jelovnik .wrapper {
@@ -324,6 +324,7 @@ input[type="submit"] {
 
     /*************** KONTAKT ******************/
     #kontakt-form {
+        margin: 0 auto;
         width: 50%;
     }
 }
