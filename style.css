@@ -67,13 +67,17 @@ body {
 .hero {
     background: url(img/hero.jpg) center top / cover no-repeat;
     padding: 70px;
+    position: relative;
 }
 .hero-text {
     color: #FFF;
     text-transform: uppercase;
     font-size: 12px;
     font-style: italic;
-    display: none;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .kuvar .wrapper {
@@ -243,9 +247,9 @@ input[type="submit"] {
         background: none;
     }
     .hero-text {
-        display: block;
-        text-align: center;
-        font-size: 24px;
+        line-height: 10px;
+        padding: 10px;
+        font-size: 16px;
     }
     .header-bottom .wrapper {
         display: flex;
@@ -340,9 +344,9 @@ input[type="submit"] {
         background: none;
     }
     .hero-text {
-        display: block;
-        text-align: center;
-        font-size: 24px;
+        line-height: 10px;
+        padding: 10px;
+        font-size: 16px;
     }
     .header-bottom .wrapper {
         display: flex;
