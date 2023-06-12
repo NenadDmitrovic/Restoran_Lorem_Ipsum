@@ -80,11 +80,6 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.kuvar .wrapper {
-    display: flex;
-    justify-content: space-between;
-    height: 350px;
-}
 .kuvar img {
     width: 100%;
 }
@@ -93,7 +88,6 @@ body {
     font-size: 12px;
     padding: 0 10px;
     overflow: scroll;
-    background-color: #c48c44;
     color: black;
 }
 .burger {
@@ -272,12 +266,10 @@ input[type="submit"] {
         width: 80%;
         display: flex;
         justify-content: space-between;
-        position: inherit;
+        height: 350px;
     }
     .kuvar-text {
-        background: none;
         overflow: hidden;
-        position: inherit;
         color: black;
     }
     .burger .wrapper {
@@ -367,12 +359,10 @@ input[type="submit"] {
         width: 80%;
         display: flex;
         justify-content: space-between;
-        position: inherit;
     }
     .kuvar-text {
-        background: none;
+        height: auto;
         overflow: hidden;
-        position: inherit;
         color: black;
     }
     .burger .wrapper {
