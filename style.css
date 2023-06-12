@@ -233,7 +233,10 @@ input[type="submit"] {
         padding: 250px 0;
         background: none;
     }
-
+    .hero-text {
+        text-align: center;
+        font-size: 24px;
+    }
     .header-bottom .wrapper {
         display: flex;
         justify-content: space-between;
@@ -249,8 +252,16 @@ input[type="submit"] {
     .mobile-menu {
         display: none;
     }
+    .kuvar .wrapper {
+        display: flex;
+        justify-content: space-between;
+        position: inherit;
+    }
     .kuvar-text {
+        background: none;
         overflow: hidden;
+        position: inherit;
+        color: black;
     }
     .burger .wrapper {
         display: flex;
@@ -258,6 +269,7 @@ input[type="submit"] {
     }
     .burger-text {
         padding: 0 100px;
+        align-self: center;
     }
 
     /********** JELOVNIK ****************/
